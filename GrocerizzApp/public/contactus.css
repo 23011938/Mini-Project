@@ -1,0 +1,25 @@
+/* add css to the <bidy> tag to change the font to arial*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  align-items: center;
+}
+.form-control {
+  width: 100%;
+  max-width: 600px; /* Adjust the maximum width of the form container */
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background */
+  border-radius: 8px;
+  margin: auto;
+}
+/* apply css to the <h1> tag for all pages to change its colour*/
+h1 {
+  color: red;
+}
+
+[type="submit"] {
+  background-color: #0a53be;
+  color: white;
+  width: 100%; /* Make button full width */
+  max-width: 150px;
+}

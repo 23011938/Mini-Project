@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+  }
+  
+  h1 {
+    color: red; /* Example color for h1 tags */
+  }
+
+[type="submit"] {
+    background-color: #0a53be;
+    color: white;
+    width: 100%; /* Make button full width */
+    max-width: 150px; /* Adjust as needed */
+    padding: 10px; /* Adjust padding for better appearance */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Add a slight border radius */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  

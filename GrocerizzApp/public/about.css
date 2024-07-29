@@ -1,0 +1,40 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+  color: #333; /* Dark text color */
+  margin: 0;
+  padding: 0;
+  
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent repeating the image */
+  background-attachment: fixed;
+}
+.container {
+  max-width: 800px; /* Adjust container width */
+  margin: auto;
+  padding: 20px;
+  background-color: #fff; /* White background for container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  border-radius: 8px; /* Rounded corners */
+  text-align: justify; /* Justify text for better readability */
+  line-height: 1.6; /* Line height for better spacing */
+}
+
+.container p {
+  margin-bottom: 20px; /* Space between paragraphs */
+}
+
+.container a {
+  color: #007bff; /* Link color */
+  text-decoration: none;
+}
+
+.container a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.img {
+    max-width: 200px;
+}

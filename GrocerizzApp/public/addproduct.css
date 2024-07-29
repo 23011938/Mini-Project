@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  align-items: center;
+}
+
+.form-control {
+  border-radius: 10px; /* Rounded corners for text boxes */
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: auto;
+  background-color: #f8f9fa;
+}
+
+.btn-primary {
+  border-radius: 10px; /* Rounded corners for buttons */
+}
+
+.btn-block {
+  width: 100%; /* Make button full width */
+  max-width: 150px; /* Limit button width */
+  margin: auto; /* Center-align button */
+}
+
+/* Apply CSS to the <h2> tag for all pages to change its color */
+h2 {
+  color: red;
+}

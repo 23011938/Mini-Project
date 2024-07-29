@@ -1,0 +1,151 @@
+/* Apply the Poppins font to all elements and reset margins, padding, and box-sizing */
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Remove default list styles from all unordered lists */
+ul {
+  list-style: none;
+}
+
+/* Remove default text decoration (underline) from all links */
+a {
+  text-decoration: none;
+}
+
+/* Apply the Poppins font to the body and reset margins and padding */
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Style the navigation bar */
+.navigation {
+  display: flex;
+  justify-content: space-between; /* Space items evenly with space between */
+  align-items: center; /* Align items in the center vertically */
+  padding: 35px;
+  max-width: 1070px; /* Set a maximum width */
+  width: 100%; /* Full width */
+  margin: auto; /* Center the navigation */
+}
+
+/* Style the menu as a flex container */
+.menu {
+  display: flex;
+}
+
+/* Style each link inside the menu */
+.menu li a {
+  padding: 3px 10px;
+  margin: 0px 15px;
+  color: grey; /* Set the text color */
+  font-weight: 500; /* Set the font weight */
+  letter-spacing: 0.5px; /* Add spacing between letters */
+}
+
+/* Style the logo */
+.logo {
+  font-size: 1.4rem; /* Set the font size */
+  font-weight: 600; /* Set the font weight */
+  letter-spacing: 1px; /* Add spacing between letters */
+  color: maroon; /* Set the text color */
+}
+
+/* Style the span inside the logo */
+.logo span {
+  color: midnightblue; /* Set the text color */
+}
+
+/* Style the right navigation bar as a grid */
+.right-nav {
+  display: grid;
+  grid-template-columns: auto auto; /* Create two columns */
+  grid-gap: 25px; /* Set the gap between grid items */
+}
+
+/* Style each link inside the right navigation */
+.right-nav a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  border-radius: 50%; /* Make the links circular */
+  position: relative; /* Position relative for absolute positioning of child elements */
+}
+
+/* Style the like button in the right navigation */
+.right-nav .like {
+  background-color: whitesmoke; /* Set background color */
+  color: palevioletred; /* Set text color */
+}
+
+/* Style the cart button in the right navigation */
+.right-nav .cart {
+  background-color: whitesmoke; /* Set background color */
+  color: palevioletred; /* Set text color */
+}
+
+/* Style the span inside the right navigation links */
+.right-nav a span {
+  position: absolute; /* Absolute positioning */
+  top: -7px; /* Position the span above the link */
+  width: 20px;
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  border-radius: 50%; /* Make the span circular */
+  background-color: whitesmoke; /* Set background color */
+  font-size: 0.6rem; /* Set font size */
+  font-weight: 500; /* Set font weight */
+  background-color: white; /* Set background color */
+}
+
+/* Change color on hover and for active menu links */
+.menu li a:hover,
+.menu .active {
+  color: darkgrey; /* Set text color */
+  transition: all ease 0.3s; /* Add transition effect */
+}
+
+/* Style the input field for search button*/
+#myInput {
+  background-color: whitesmoke; /* Set background color */
+  margin: auto; /* Center the input field */
+  border-radius: 10px; /* Round the corners */
+}
+
+/* Style the search button */
+#btn {
+  border-radius: 10px; /* Round the corners */
+  background-color: gainsboro; /* Set background color */
+}
+
+/* Set a maximum width for the container */
+.container {
+  max-width: 900px;
+}
+
+/* Style the add-to-cart button */
+.add-to-cart-btn {
+  width: 100%; /* Full width */
+  background-color: teal; /* Set background color */
+  color: white; /* Set text color */
+  border-radius: 5px; /* Round the corners */
+  padding: 10px 10px; /* Add padding */
+  font-size: 14px; /* Set font size */
+  height: 52px; /* Set a fixed height */
+  border: none; /* Remove border */
+}
+
+/* Style images inside the column class(formating images to be same size) */ 
+.col img {
+  height: 100%; /* Full height */
+  object-fit: cover; /* Ensure the images cover the container while maintaining aspect ratio */
+}
+
