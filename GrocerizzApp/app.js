@@ -20,10 +20,10 @@ const upload = multer({ storage: storage }); // Set up multer with defined stora
 
 // Create MySQL connection
 const connection = mysql.createConnection({
-  host: "localhost", // MySQL host
-  user: "root", // MySQL user
-  password: "", // MySQL password (if any)
-  database: "grocerizzapp", // MySQL database name
+  host: "sql.freedb.tech", // MySQL host
+  user: "freedb_freedb_user", // MySQL user
+  password: "7xp@Xg?PUTVP4J3", // MySQL password (if any)
+  database: "freedb_Mini Project", // MySQL database name
 });
 
 // Connect to MySQL database
